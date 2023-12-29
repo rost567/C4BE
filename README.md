@@ -12,13 +12,13 @@ Thise section includes problems about:
      %timeit regula_falsi(equi, [80,110])  > 18.3 µs ± 752 ns per loop (mean ± std. dev. of 7 runs, 100,000 loops each)
      %timeit newton_root(equi, 110)        > 18.9 µs ± 181 ns per loop (mean ± std. dev. of 7 runs, 100,000 loops each)
 ## Project investment - Present Value 
-> **a)** Implementing a function PV that accepts appropriate inputs and returns the present value.
-> **b)** Assuming $𝑡 ∈ [0, 1, 2, 3, 4, ..., 10]$. Using list comprehension, create list that contains the corresponding present values and visualize the present values with respect to 𝑡.
-> **c)** Assuming $𝑘 ∈ [0, 0.01, ..., 0.10]$. Again, create a list with the corresponding present values.
-> **d)** Nested lists with two variables can be created in the fashion
+> **a)** Implementing a function PV that accepts appropriate inputs and returns the present value.  
+> **b)** Assuming $𝑡 ∈ [0, 1, 2, 3, 4, ..., 10]$. Using list comprehension, create list that contains the corresponding present values and visualize the present values with respect to 𝑡.  
+> **c)** Assuming $𝑘 ∈ [0, 0.01, ..., 0.10]$. Again, create a list with the corresponding present values.  
+> **d)** Nested lists with two variables can be created in the fashion.
 
 ## Hasse's & Collatz's algorithm  
-> **a)** Implementing a (regular) function Hasse(x) that accepts an integer value 𝑥𝑡 and returns it successor 𝑥𝑡+1. (Ensure that the argument is never less or equal to zero.)
-> **b)** Implementing a function Collatz$(x0)$ that accepts the first element $𝑥_0$ as input and returns a list with the resulting series as a list, and the number of steps (iterations) it took to (first) reach $1$. Example: Collatz$(4)$ should return $([4, 2, 1], 2)$, Collatz(10) should return $([10, 5, 16, 8, 4, 2, 1], 6)$, and so on.
-> **c)** For $1 \le 𝑥_0 \le 10′000$, which creates the longest sequence before reaching 1?
+> **a)** Implementing a (regular) function Hasse(x) that accepts an integer value 𝑥𝑡 and returns it successor 𝑥𝑡+1. (Ensure that the argument is never less or equal to zero).  
+> **b)** Implementing a function Collatz$(x0)$ that accepts the first element $𝑥_0$ as input and returns a list with the resulting series as a list, and the number of steps (iterations) it took to (first) reach $1$. Example: Collatz$(4)$ should return $([4, 2, 1], 2)$, Collatz(10) should return $([10, 5, 16, 8, 4, 2, 1], 6)$, and so on.  
+> **c)** For $1 \le 𝑥_0 \le 10′000$, which creates the longest sequence before reaching 1?  
 
