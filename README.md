@@ -1,4 +1,3 @@
-# C4BE Part 1
 ## Economic equilibrium...
    * a) Implementing lambda functions for  𝑝𝐷(𝑞) and 𝑝𝑆(𝑞).
    * b) Creating a numpy array with quantities ranging from 0 to 200 (e.g., using np.arange or np.linspace) and visualizing the two functions with the plt.plot() method.
@@ -22,7 +21,7 @@
 > **b)** Implementing a function Collatz$(x0)$ that accepts the first element $𝑥_0$ as input and returns a list with the resulting series as a list, and the number of steps (iterations) it took to (first) reach $1$. Example: Collatz$(4)$ should return $([4, 2, 1], 2)$, Collatz(10) should return $([10, 5, 16, 8, 4, 2, 1], 6)$, and so on.  
 > **c)** For $1 \le 𝑥_0 \le 10′000$, which creates the longest sequence before reaching 1?  
 
-# C4BE Part 2
+# Business and economics Part 2
 ## Stock price 
 Assuming a stock price follows a process $𝑆_𝑡 = 𝑆_{𝑡−1} * 𝑒^𝑟_𝑡$. Weekly returns $𝑟_𝑡$ are normally distributed with $𝑟_𝑡 ∼ 𝑁(0.005, 0.03^2)$ (all parameters per week; no further scaling required).  
 Using Monte Carlo Simulation to answer the following questions for $𝑇 = 13$ and $𝑇 = 52$ weeks (quarter / whole year).
